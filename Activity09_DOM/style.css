@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Roboto:wght@400;700&display=swap');
+
+body {
+    /*Alinhando as boxes uma ao lado da outra, formando duas partes, a esquerda
+    e a direita*/
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto';
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 80px;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+/*Separação da página em dois blocos, esquerdo e direito. Onde a visualização
+    horizontal é de 50% da visualização da página, e a visualização vertical é
+    de 100% da página*/
+.left {
+    display: flex;
+    width: 50vw;
+    height: 100vw;
+    /*Coloca uma abaixo do outro*/
+    flex-direction: column;
+}
+
+.right {
+    width: 50vw;
+    height: 100vw;
+}
+
+/*Formatando o tamanho das boxes de escalar jogador e remover jogador*/
+.left-up {
+    width: 50vw;
+    height: 30vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.left-down {
+    width: 50vw;
+    height: 30vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
