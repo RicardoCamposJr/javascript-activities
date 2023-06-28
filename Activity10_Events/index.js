@@ -103,6 +103,5 @@ form.addEventListener('submit', function(event) {
   rowsTech.forEach(function(row){
     const techName = document.querySelector('#' + row.id + ' input[name="tech"]').value
     console.log(techName)
-    const  = document.querySelector('#' + row.id + ' input[name="radioName"]').value
   })
 })
