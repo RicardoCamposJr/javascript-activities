@@ -1,0 +1,14 @@
+{
+  "name": "primeiro-projeto-npm",
+  "version": "1.0.0",
+  "description": "Primeira vez utilizando o npm.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ricardo Campos",
+  "license": "ISC",
+  "dependencies": {
+    "dayjs": "^1.11.9"
+  }
+}
